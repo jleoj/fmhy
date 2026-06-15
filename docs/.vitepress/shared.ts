@@ -22,7 +22,16 @@ export const meta = {
   name: 'fmhy/jleoj',
   description: 'A selfhosted collection of all the free stuff on the internet!',
   hostname: 'https://fmhy-jleoj.vercel.app',
-  keywords: ['stream', 'movies', 'gaming', 'reading', 'anime', 'adobe', 'software', 'macos'],
+  keywords: [
+    'stream',
+    'movies',
+    'gaming',
+    'reading',
+    'anime',
+    'adobe',
+    'software',
+    'macos'
+  ],
   build: {
     api: false,
     nsfw: false

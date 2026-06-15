@@ -2,7 +2,7 @@ name: FMHY Fork Syncing
 
 on:
   schedule:
-    - cron: '0 0 * * *' 
+    - cron: '0 0 * * *'
   workflow_dispatch:
 
 jobs:
@@ -14,5 +14,5 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           owner: fmhy
-          base: main                 
-          head: main                 
+          base: main
+          head: main

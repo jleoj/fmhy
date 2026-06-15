@@ -265,7 +265,8 @@ export default defineConfig({
         manifest: {
           name: 'fmhy@jleoj',
           short_name: 'fmhy',
-          description: 'A selfhosted collection of all the free stuff on the internet!',
+          description:
+            'A selfhosted collection of all the free stuff on the internet!',
           theme_color: '#000000ff',
           background_color: '#000000ff',
           display: 'standalone',
@@ -344,6 +345,6 @@ export default defineConfig({
       alt: 'FMHY Logo'
     },
     nav,
-    sidebar,
+    sidebar
   }
 })
