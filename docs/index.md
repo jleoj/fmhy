@@ -4,8 +4,8 @@ layout: home
 description: The largest collection of free stuff on the internet!
 
 hero:
-  name: freemediaheckyeah
-  tagline: The largest collection of free stuff on the internet!
+  name: fmhy/jleoj
+  tagline: A selfhosted collection of all the free stuff on the internet!
   announcement:
     title: June Updates 🌈
     link: /posts/june-2026

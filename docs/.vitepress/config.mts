@@ -26,11 +26,11 @@ import { replaceNoteLink } from './utils/markdown'
 
 const baseUrl = process.env.GITHUB_ACTIONS ? '/edit' : '/'
 export default defineConfig({
-  title: 'FMHY',
+  title: 'fmhy/jleoj',
   description: meta.description,
-  titleTemplate: ':title • freemediaheckyeah',
+  titleTemplate: ':title • fmhy/jleoj',
   lang: 'en-US',
-  lastUpdated: false,
+  lastUpdated: true,
   cleanUrls: true,
   appearance: true,
   base: baseUrl,
@@ -40,7 +40,7 @@ export default defineConfig({
     hostname: meta.hostname
   },
   head: [
-    ['meta', { name: 'theme-color', content: '#7bc5e4' }],
+    ['meta', { name: 'theme-color', content: '#3ccd93' }],
     ['meta', { name: 'og:type', content: 'website' }],
     ['meta', { name: 'og:locale', content: 'en' }],
     ['link', { rel: 'icon', href: '/test.png' }],
@@ -263,9 +263,9 @@ export default defineConfig({
           ]
         },
         manifest: {
-          name: 'FMHY - freemediaheckyeah',
-          short_name: 'FMHY',
-          description: 'The largest collection of free stuff on the internet!',
+          name: 'fmhy@jleoj',
+          short_name: 'fmhy',
+          description: 'A selfhosted collection of all the free stuff on the internet!',
           theme_color: '#000000ff',
           background_color: '#000000ff',
           display: 'standalone',
@@ -335,8 +335,8 @@ export default defineConfig({
         `<br/> This site does not host any files.`
     },
     editLink: {
-      pattern: 'https://github.com/fmhy/edit/edit/main/docs/:path',
-      text: '📝 Edit this page'
+      pattern: '',
+      text: ''
     },
     outline: 'deep',
     logo: {
@@ -345,6 +345,5 @@ export default defineConfig({
     },
     nav,
     sidebar,
-    socialLinks
   }
 })
